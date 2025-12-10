@@ -118,9 +118,48 @@ area=3.14*radius*radius
 print(f"Area of the circle:{area}")
 """
 
-#Example-14
-a=int(input("Enter the value:"))
-b=int(input("Enter the value:"))
+#Example=14 pending
+
+#Example-15: With temporary variable..
+"""
+a=int(input("Enter the value of a:"))
+b=int(input("Enter the value of b:"))
+temp=a
+a=b
+b=temp
+print(f"After swapping of a:{a}")
+print(f"After swapping of b:{b}")
+""" 
+
+#or 
+#input a=10,b=20
+#output-a=20,b=10
+"""
+a=int(input("Enter the value of a:"))
+b=int(input("Enter the value of b:"))
+b=a+b
+a=b-a
+b=b-a
+print(f"After swapping of a:{a}")
+print(f"After swapping of b:{b}")
+"""
+
+#Example-16
+"""
+temp_celsius=int(input("Enter the value of temp:"))
+f=temp_celsius*(9/5)+32
+k=273+temp_celsius
+print("Temperature of Fahrenhit:",f)
+print("Temperature in kelvin:",k)
+"""
+
+#Example-17
+Amount_in_usd=int(input("Enter the value:"))
+Exchange=float(input("enter"))
+result=Amount_in_usd*Exchange
+print(result)
+
+
 
 
 
